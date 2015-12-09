@@ -1,4 +1,4 @@
-Django==1.7
+Django<1.10
 ecdsa==0.13
 paramiko==1.15.2<% if (database == 'PostgreSQL') { %>
 psycopg2==2.6<% } %>
